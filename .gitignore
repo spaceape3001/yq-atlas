@@ -1,6 +1,10 @@
 local.cmake
 toolbox
+
+qt-utilities
+yq-vulqan
 yq-toolbox
+
 apix
 exex
 sdkx
