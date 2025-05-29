@@ -13,7 +13,7 @@ add_library(${PROJECT_NAME} SHARED
 target_link_libraries(${PROJECT_NAME}
     PUBLIC
         yq_atlas
-        yq_gluon
+        yq_tachyon
 )
 
 vulqan_library(${PROJECT_NAME})
