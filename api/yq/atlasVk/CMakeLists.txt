@@ -8,6 +8,7 @@ project(yq_atlasVk)
 
 add_library(${PROJECT_NAME} SHARED
     atlasVk.cpp
+    GeoBody.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}
