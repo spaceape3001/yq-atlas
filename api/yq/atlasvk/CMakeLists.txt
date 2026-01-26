@@ -4,7 +4,7 @@
 ##
 ################################################################################
 
-project(yq_atlasVk)
+project(yq_atlasvk)
 
 add_library(${PROJECT_NAME} SHARED
     atlasVk.cpp
@@ -18,4 +18,5 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 vulqan_library(${PROJECT_NAME})
+yq_vklib(${PROJECT_NAME})
 LinkTest(${PROJECT_NAME})
